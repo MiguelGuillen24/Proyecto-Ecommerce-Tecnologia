@@ -1,0 +1,7 @@
+*Lenguages*
+JS
+*Frameworks*
+Bootstrap
+React
+*DataBase*
+PostgreSQL

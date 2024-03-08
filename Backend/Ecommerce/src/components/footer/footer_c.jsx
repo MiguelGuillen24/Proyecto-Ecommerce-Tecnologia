@@ -6,14 +6,15 @@ function footer_c() {
       <footer>
         <div className='row'>
             <div className='col'>
-                <img className='icon_enterprise' src='https://cdn-icons-png.flaticon.com/512/12251/12251640.png'></img>
+                <a href='#'><img className='icon_enterprise' src='https://cdn-icons-png.flaticon.com/512/12251/12251640.png'></img></a>
                 <p>Retro Games Project</p>
             </div>
             <div className='col'>
                 <h5>Nuestras Redes Sociales</h5>
-                <img className='icon_redes' src="https://cdn-icons-png.flaticon.com/512/2168/2168281.png"></img>
-                <img className='icon_redes' src="https://cdn-icons-png.flaticon.com/512/1384/1384015.png"></img>
-                <img className='icon_redes' src="https://cdn-icons-png.flaticon.com/512/5969/5969020.png"></img>
+                <a href='#'><img className='icon_redes' src="https://cdn-icons-png.flaticon.com/512/2168/2168281.png"></img></a>
+                <a href='#'><img className='icon_redes' src="https://cdn-icons-png.flaticon.com/512/1384/1384015.png"></img></a>
+                <a href='https://twitter.com/Miguel_MGdev'>
+                  <img className='icon_redes' src="https://cdn-icons-png.flaticon.com/512/5969/5969020.png"></img></a>
             </div>
             <div className='col'>
                 <h5>Sobre Nosotros</h5>

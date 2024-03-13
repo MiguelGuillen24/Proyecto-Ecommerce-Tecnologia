@@ -1,27 +1,25 @@
-const { Router } = require('express');
-const pool = require('../db');
-const {getAllTasks} = require('../controllers/tasks.controller')
+const { Router } = require("express");
+const pool = require("../db");
+const {
+  getAllTasks,
+  getTasks,
+  createTask,
+  deleteTask,
+  updateTask,
+} = require("../controllers/tasks.controller");
 
 const router = Router();
 
 //CRUD
 
-router.get('/tasks', getAllTasks);
+router.get("/tasks", getAllTasks);
 
-router.get('/tasks/10', (req, res) => {
-    res.send('retrieving a task');
-})
+router.get("/tasks/10", getTasks);
 
-router.post('/tasks', (req, res) => {
-    res.send('creating a task');
-})
+router.post("/tasks", createTask);
 
-router.delete('/tasks', (req, res) => {
-    res.send('deleting a task');
-})
+router.delete("/tasks", deleteTask);
 
-router.put('/tasks', (req, res) => {
-    res.send('update a task');
-})
+router.put("/tasks", updateTask);
 
 module.exports = router;

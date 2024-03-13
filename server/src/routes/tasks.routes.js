@@ -1,8 +1,8 @@
 const { Router } = require("express");
 const pool = require("../db");
 const {
+  showAllProducts,
   getAllTasks,
-  getTasks,
   createTask,
   deleteTask,
   updateTask,
@@ -14,7 +14,7 @@ const router = Router();
 
 router.get("/tasks", getAllTasks);
 
-router.get("/tasks/10", getTasks);
+router.get("/tasks/10", showAllProducts);
 
 router.post("/tasks", createTask);
 

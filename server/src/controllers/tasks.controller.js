@@ -1,11 +1,20 @@
 const pool = require("../db");
+const Product = require("../models/database_model");
 
 const getAllTasks = async (req, res) => {
   res.send("retrieven a lit of task");
 };
 
-const getTasks = (req, res) => {
-  res.send("retrieving a single task");
+const showAllProducts = async (res) => {
+  try {
+      const products = await Product.findAll();
+      console.log('Registros en la tabla Products:');
+      products.forEach(product => {
+          console.log(product.toJSON());
+      });
+  } catch (error) {
+      console.error('Error al mostrar los registros de la tabla Products:', error);
+  }
 };
 
 const createTask = async (req, res) => {
@@ -29,7 +38,7 @@ const updateTask = (req, res) => {
 
 module.exports = {
   getAllTasks,
-  getTasks,
+  showAllProducts,
   createTask,
   deleteTask,
   updateTask,

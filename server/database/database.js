@@ -1,6 +1,8 @@
-import Sequelize from "sequelize";
+const {Sequelize} = require('sequelize');
 
-export const sequelize = new Sequelize("retrogamer_db", "postgres", "Progresql24", {
-  hos: "localhost",
-  dialect: "postgres",
-});
+const sequelize = new Sequelize('retrogamer_db','postgres','Progresql24',{
+    host: 'localhost',
+    dialect: 'postgres'
+})
+
+module.exports = sequelize;

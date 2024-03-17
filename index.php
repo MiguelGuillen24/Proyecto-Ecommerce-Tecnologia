@@ -1,5 +1,5 @@
 <?php
- require_once './models/components/social_network.php';
+ require_once './app/model/components/social_network.php';
 ?>
 <!DOCTYPE html>
 <html lang="en">

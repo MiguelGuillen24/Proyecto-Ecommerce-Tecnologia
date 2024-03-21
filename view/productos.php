@@ -20,7 +20,6 @@ require_once '../app/model/components/products.php';
 <body>
 
     <?php echo navbar_client;
-    echo productos('Mando Dualsense PS5 White V2', 25, '279.99');
     $quantity_cards = 0;
     do {
         $quantity_cards++;

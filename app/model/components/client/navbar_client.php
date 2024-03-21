@@ -13,7 +13,7 @@ const navbar_client = '<nav class="navbar navbar-expand-lg bg-body-tertiary">
                 <a class="nav-link active" aria-current="page" href="#"></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="./index.php">Inicio</a>
+                <a class="nav-link" href="./inicio.php">Inicio</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="./productos.php">Productos</a>

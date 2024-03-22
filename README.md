@@ -16,5 +16,4 @@
 ### SERVICIOS UTILIZADOS
 
 -- REPOSITORY   => GITHUB
----LINK         => https://github.com/MiguelMGdev/Proyecto-Ecommerce-Tecnologia
 -- FONT         => FONTAWESOME

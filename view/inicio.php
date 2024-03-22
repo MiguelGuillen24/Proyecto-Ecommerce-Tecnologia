@@ -13,8 +13,8 @@ require_once '../app/model/components/pagination.php';
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Retrogamer</title>
     <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/10298/10298212.png" type="image/png">
-    <link href="../app/model/style.css" rel="stylesheet">
-    <link href="../app/model/icon_social.css" rel="stylesheet">
+    <link rel="stylesheet" href="../app/model/style.css">
+    <link rel="stylesheet" href="../app/model/icon_social.css">
 </head>
 
 <body>

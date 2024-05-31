@@ -21,6 +21,7 @@ require_once '../app/model/components/pagination.php';
 
     <?php echo navbar_client ?>
     <?php echo carousel ?>
+    <?php echo "Nombre: Miguel ALonso Guillen Medina" ?>
     <?php echo pagination ?>
     <?php echo $footer_client ?>
 </body>
